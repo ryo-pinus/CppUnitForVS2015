@@ -25,5 +25,14 @@
 
 # Executables
 *.exe
+*.dll
+*.lib
 *.out
 *.app
+
+*.db
+*.opendb
+
+out/
+obj/
+
