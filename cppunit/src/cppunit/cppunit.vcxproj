@@ -231,9 +231,6 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\include\cppunit\Makefile.am" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="AdditionalMessage.cpp" />
     <ClCompile Include="Asserter.cpp" />
     <ClCompile Include="BeOsDynamicLibraryManager.cpp" />

@@ -408,7 +408,4 @@
       <Filter>protector</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\..\include\cppunit\Makefile.am" />
-  </ItemGroup>
 </Project>
