@@ -1,24 +1,30 @@
 # CppUnitForVS2015（CppUnit for Visual Studio 2015）
 
-## Description
+## 概要
 
-* Supportd Visual Studio 2015
-* Supportd x64 platform
+CppUnitForVS2015は cppunit1.12.1 に下記の対応を追加したプロジェクトとなります。
 
-## Build Instructions
+* Visual Studio 2015対応
+* x64プラットフォーム対応
 
-Run build.bat.
+## ビルド方法
 
-## Artifacts
+「build.bat」を実行するとcppunitのビルド及びテストが実行されます。本プロジェクトのビルドにはVisual Studio 2015が必要となります。
 
-|File name|Description|
+    build.bat
+
+## 成果物
+
+ビルドが成功すると「cppunit\lib\Win32」及び「cppunit\lib\x64」に下記のファイルが作成されます。
+
+|ファイル名|説明|
 |:--|:--|
-|cppunit.lib|Static link library|
-|cppunit_dll.dll|Dynamic link dll|
-|cppunit_dll.lib|Dynamic link library|
-|cppunitd.lib|Static link library(for debug)|
-|cppunitd_dll.dll|Dynamic link dll(for debug)|
-|cppunitd_dll.lib|Dynamic link library(for debug)|
+|cppunit.lib|静的リンク用libファイル|
+|cppunit_dll.dll|動的リンク用dllファイル|
+|cppunit_dll.lib|動的リンク用libファイル|
+|cppunitd.lib|デバッグ静的リンク用libファイル|
+|cppunitd_dll.dll|デバッグ動的リンク用dllファイル|
+|cppunitd_dll.lib|デバッグ動的リンク用libファイル|
 
-## LICENSE
+## ライセンス
  LGPL 2.1
