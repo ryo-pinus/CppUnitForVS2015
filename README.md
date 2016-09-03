@@ -1,5 +1,7 @@
 # CppUnitForVS2015（CppUnit for Visual Studio 2015）
 
+[![Build status](https://ci.appveyor.com/api/projects/status/19ij352fqk573lu0/branch/master?svg=true)](https://ci.appveyor.com/project/ryo-pinus/cppunitforvs2015/branch/master)
+
 ## 概要
 
 CppUnitForVS2015は cppunit1.12.1 に下記の対応を追加したプロジェクトとなります。
